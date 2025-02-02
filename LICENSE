@@ -1,20 +1,120 @@
-Copyright (c) GitHub and others
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Graphic Designer</title>
+  <meta name="description" content="Professional graphic designer specializing in branding, web design, and digital art.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Your Name</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#contact" class="cta-button">Hire Me</a>
+  </header>
 
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Transforming Ideas into Stunning Visuals</h1>
+      <p>Graphic Designer | Branding Specialist | Digital Artist</p>
+      <a href="#portfolio" class="cta-button">View My Work</a>
+    </div>
+  </section>
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="your-photo.jpg" alt="Your Name">
+      <p>Hi, I’m [Your Name], a passionate graphic designer with over 5 years of experience in branding, web design, and digital art. I love creating visuals that tell stories and leave a lasting impression.</p>
+      <p>Skills: Adobe Creative Suite, Figma, Web Design, Illustration</p>
+    </div>
+  </section>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="project1.jpg" alt="Project 1">
+        <p>Project Title 1</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="project2.jpg" alt="Project 2">
+        <p>Project Title 2</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="project3.jpg" alt="Project 3">
+        <p>Project Title 3</p>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services-grid">
+      <div class="service-item">
+        <h3>Branding</h3>
+        <p>Creating unique brand identities that stand out.</p>
+      </div>
+      <div class="service-item">
+        <h3>Web Design</h3>
+        <p>Designing responsive and user-friendly websites.</p>
+      </div>
+      <div class="service-item">
+        <h3>Illustration</h3>
+        <p>Custom illustrations for digital and print media.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>What Clients Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-item">
+        <p>"Amazing work! [Your Name] brought my vision to life."</p>
+        <p>- Client Name</p>
+      </div>
+      <div class="testimonial-item">
+        <p>"Professional, creative, and easy to work with."</p>
+        <p>- Client Name</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Let’s Work Together</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">Behance</a>
+      <a href="#">Instagram</a>
+    </div>
+    <p>© 2025 Your Name. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
